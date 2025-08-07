@@ -1,15 +1,20 @@
 "use client";
 
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./styles/page.module.css";
 
 import Header from "../components/Header/Header.jsx";
 import ProductCard from "../components/Productcard/ProductCard.jsx";
+import { productsData } from "../data/products.js";
 
 export default function Home() {
 
-  
+  const [products, setProducts] = useState ([]);
+
+  useEffect(() => {
+    setProducts(productsData);
+  }, []);
 
   return (
     <div className={styles.containerGeral}>

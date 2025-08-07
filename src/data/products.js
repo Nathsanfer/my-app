@@ -44,7 +44,31 @@ export const productsData = [
         imageAlt: "Samsung Galaxy Tab S9+ 256GB",
         nomeProduto: "Samsung Galaxy Tab S9+ 256GB",
         preco: "4.999,00",
-        descricao: "ablet premium Android com S Pen incluída, tela Dynamic AMOLED 2X e resistência à água.",
+        descricao: "Tablet premium Android com S Pen incluída, tela Dynamic AMOLED 2X e resistência à água.",
         totalAvaliacoes: "(4.5) - 432 avaliações"
+    },
+    {
+        linkImage: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-2-hero-select-202409_FMT_WHH?wid=750&hei=556&fmt=jpeg&qlt=90&.v=1724041668836",
+        imageAlt: "Apple AirPods Pro 2ª Geração",
+        nomeProduto: "Apple AirPods Pro 2ª Geração",
+        preco: "2.399,00",
+        descricao: "Fones sem fio com cancelamento ativo de ruído, áudio espacial e até 30h de bateria.",
+        totalAvaliacoes: "(4.7) - 3.421 avaliações"
+    },
+    {
+        linkImage: "https://www.iplace.com.br/ccstore/v1/images/?source=/file/v3035744957825867996/products/226829.06-apple-watch-9-gps-mr9h3bz-a.jpg&height=350&width=350&quality=1.0",
+        imageAlt: "Apple Watch Series 9 GPS 45mm",
+        nomeProduto: "Apple Watch Series 9 GPS 45mm",
+        preco: "4.299,00",
+        descricao: "O smartwatch mais avançado da Apple, com monitoramento de saúde e fitness.",
+        totalAvaliacoes: "(4.8) - 1.234 avaliações"
+    },
+    {
+        linkImage: "https://embralumi.vteximg.com.br/arquivos/ids/166981-1000-1000/capa.jpg?v=637699015396800000",
+        imageAlt: "Carregador Sem Fio MagSafe 15W",
+        nomeProduto: "Carregador Sem Fio MagSafe 15W",
+        preco: "399,00",
+        descricao: "Carregador sem fio com tecnologia MagSafe para iPhone.",
+        totalAvaliacoes: "(4.4) - 202 avaliações"
     }
 ]

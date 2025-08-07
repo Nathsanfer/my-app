@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles/not-found.module.css";
 
 export default function NotFound() {
@@ -14,7 +15,10 @@ export default function NotFound() {
         />
         <h2 className={styles.title}>A página que você deseja acessar está fora do ar!!</h2>
         <p className={styles.subtitle}>Tente novamente mais tarde.</p>
+        <Link href="/">
+          <button className={styles.button}>Voltar a tela inicial</button>
+        </Link>
       </div>
     </div>
   )
-}
+}     
